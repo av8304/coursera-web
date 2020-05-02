@@ -2,97 +2,29 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="d=width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Assignment Solution for Module 2</title>
-	<style>
-		* {
-			margin: 0;
-			padding: 0;
-			box-sizing: border-box;
-		}
-		h1 {
-			text-align: center;
-			font-family: Verdana, serif;
-			margin: 30px;
-		}
-		section {
-			background-color: gray;
-			width: 100%;
-			height: auto;
-			border: 1px black solid;
-			border-radius: 5px;
-			margin: 10px;
-			overflow: hidden;
-		}
-		.section1 h2 {
-			background-color: darkred;
-			color: white;
-			border: 1px black solid;
-			text-align: center;
-			float: right;
-			padding: 7px 10px 7px 10px;
-			font-family: Verdana, serif;
-			font-size: x-large;
-			border-radius: 5px;
-		}
-		.section1 p {
-			clear: right;
-			font-size: medium;
-			color: white;
-			padding: 15px;
-			font-family: Verdana, serif;
-		}
-		.section2 h2 {
-			background-color: darkblue;
-			color: white;
-			border: 1px black solid;
-			text-align: center;
-			float: right;
-			padding: 7px 10px 7px 10px;
-            font-family: Verdana, serif;
-            font-size: x-large;		
-            border-radius: 5px;
-        }
-		.section2 p {
-			clear: right;
-			font-size: medium;
-			color: white;
-			padding: 15px;
-			font-family: Verdana, serif;
-		}
-		.section3 h2 {
-			background-color: darkgreen;
-			color: white;
-			border: 1px black solid;
-			text-align: center;
-			float: right;
-			padding: 7px 10px 7px 10px;
-			font-family: Verdana, serif;
-			font-size: x-large;
-			border-radius: 5px;
-		}
-		.section3 p {
-			clear: right;
-			font-size: medium;
-			color: white;
-			padding: 15px;
-			font-family: Verdana, serif;
-		}
-	</style>
+	<link rel="stylesheet" href="css/styles.css">
 	</head>
 <body>
 	<h1>Our Menu</h1>
-	<section class="section1">
-		<h2>Chicken</h2>
-		<p>Strips of chicken, julienned onions and peppers, chopped carrots and eggplant, oil and spices, cooked together in a heat-safe bag, and served over rice. A baked potato complements the dish.</p>
-	</section>
-	<section class="section2">
-		<h2>Beef</h2>
-		<p>Ground beef seasoned with diced onion and secret spices, and baked to completion in the oven. Served with garlic mashers and a side salad.</p>
-	</section>
-	<section class="section3">
-		<h2>Sushi</h2>
-		<p>This is an excellent healthy choice for those looking to avoid rice. Sashimi is Grade A cuts of raw fish. Tataki is Grade A cuts of fish seared on the outside with teriyaki and sesame seeds. Each portion comes with 6 pieces. IF you prefer a larger mix of sashimi we can offer the Sashimi Platter which comes with 4 different types of fish.</p>
-	</section>
+	<div class=" first col-md-6 col-lg-4">
+	    <section class="section1">
+	    	<h2>Chicken</h2>
+		    <p>Strips of chicken, julienned onions and peppers, chopped carrots and eggplant, oil and spices, cooked together in a heat-safe bag, and served over rice. A baked potato complements the dish.</p>
+	    </section>
+	</div>
+	<div class="second col-md-6 col-lg-4">
+		<section class="section2">
+			<h2>Beef</h2>
+		    <p>Ground beef seasoned with diced onion and secret spices, and baked to completion in the oven. Served with garlic mashers and a side salad.</p>
+	    </section>
+	</div>
+	<div class="third col-md-12 col-lg-4">
+		<section class="section3">
+			<h2>Sushi</h2>
+		    <p>This is an excellent healthy choice for those looking to avoid rice. Sashimi is Grade A cuts of raw fish. Tataki is Grade A cuts of fish seared on the outside with teriyaki and sesame seeds. Each portion comes with 6 pieces. IF you prefer a larger mix of sashimi we can offer the Sashimi Platter which comes with 4 different types of fish.</p>
+	    </section>
+    </div>
 </body>
 </html>

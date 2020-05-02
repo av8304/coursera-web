@@ -1,0 +1,182 @@
+      * {
+			box-sizing: border-box;;
+		}
+		h1 {
+			text-align: center;
+			font-family: Verdana, serif;
+			margin: 30px;
+		}
+		section {
+			background-color: gray;
+			border: 1px black solid;
+			margin: 10px;
+		}
+		h2 {
+			margin: 0;
+		}
+		.section1 h2 {
+			background-color: darkred;
+			color: white;
+			border: 1px black solid;
+			text-align: center;
+			float: right;
+			padding: 7px 10px 7px 10px;
+			font-family: Verdana, serif;
+			font-size: x-large;
+			/*border-radius: 2.5px;*/
+		}
+		.section1 p {
+			clear: right;
+			font-size: medium;
+			color: white;
+			padding: 15px;
+			font-family: Verdana, serif;
+		}
+		.section2 h2 {
+			background-color: darkblue;
+			color: white;
+			border: 1px black solid;
+			text-align: center;
+			float: right;
+			padding: 7px 10px 7px 10px;
+            font-family: Verdana, serif;
+            font-size: x-large;		
+        }
+		.section2 p {
+			clear: right;
+			font-size: medium;
+			color: white;
+			padding: 15px;
+			font-family: Verdana, serif;
+		}
+		.section3 h2 {
+			background-color: darkgreen;
+			color: white;
+			border: 1px black solid;
+			text-align: center;
+			float: right;
+			padding: 7px 10px 7px 10px;
+			font-family: Verdana, serif;
+			font-size: x-large;
+		}
+		.section3 p {
+			clear: right;
+			font-size: medium;
+			color: white;
+			padding: 15px;
+			font-family: Verdana, serif;
+		}
+		/* For Mobile Phones */
+		@media only screen and (max-width: 767px) {
+			.first, .second, .third{
+				width: 100%;
+			}
+		}
+		/* For tablets and medium sized devices */
+		@media only screen and (min-width: 768px) {
+			section {
+				height: 200px;
+			}
+			.col-md-1 {
+				float: left;
+				width: 8.33%;
+			}
+			.col-md-2 {
+				float: left;
+				width: 16.66%;
+			}
+			.col-md-3 {
+				float: left;
+				width: 25%;
+			}
+			.col-md-4 {
+				float: left;
+				width: 33.33%;
+			}
+			.col-md-5 {
+				float: left;
+				width: 41.67%;
+			}
+			.col-md-6 {
+				float: left;
+				width: 50%;
+			}
+			.col-md-7 {
+				float: left;
+				width: 58.33%;
+			}
+			.col-md-8 {
+				float: left;
+				width: 66.67%;
+			}
+			.col-md-9 {
+				float: left;
+				width: 75%;
+			}
+			.col-md-10 {
+				float: left;
+				width: 83.33%;
+			}
+			.col-md-11 {
+				float: left;
+				width: 91.66%;
+			}
+			.col-md-12 {
+				float: left;
+				width: 100%;
+			}
+		}
+		/* For desktops and large screen devices */
+		@media only screen and (min-width: 992px) {
+			section {
+				height: 300px;
+			}
+			.col-lg-1 {
+				float: left;
+				width: 8.33%;
+			}
+			.col-lg-2 {
+				float: left;
+				width: 16.66%;
+			}
+			.col-lg-3 {
+				float: left;
+				width: 25%;
+			}
+			.col-lg-4 {
+				float: left;
+				width: 33.33%;
+			}
+			.col-lg-5 {
+				float: left;
+				width: 41.67%;
+			}
+			.col-lg-6 {
+				float: left;
+				width: 50%;
+			}
+			.col-lg-7 {
+				float: left;
+				width: 58.33%;
+			}
+			.col-lg-8 {
+				float: left;
+				width: 66.67%;
+			}
+			.col-lg-9 {
+				float: left;
+				width: 75%;
+			}
+			.col-lg-10 {
+				float: left;
+				width: 83.33%;
+			}
+			.col-lg-11 {
+				float: left;
+				width: 91.66%;
+			}
+			.col-lg-12 {
+				float: left;
+				width: 100%;
+			}
+		}
