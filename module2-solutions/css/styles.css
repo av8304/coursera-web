@@ -23,7 +23,7 @@
 			padding: 7px 10px 7px 10px;
 			font-family: Verdana, serif;
 			font-size: x-large;
-			/*border-radius: 2.5px;*/
+			border-radius: 2.5px;
 		}
 		.section1 p {
 			clear: right;
@@ -40,7 +40,8 @@
 			float: right;
 			padding: 7px 10px 7px 10px;
             font-family: Verdana, serif;
-            font-size: x-large;		
+            font-size: x-large;	
+			border-radius: 2.5px;
         }
 		.section2 p {
 			clear: right;
@@ -58,6 +59,7 @@
 			padding: 7px 10px 7px 10px;
 			font-family: Verdana, serif;
 			font-size: x-large;
+			border-radius: 2.5px;
 		}
 		.section3 p {
 			clear: right;
@@ -70,6 +72,7 @@
 		@media only screen and (max-width: 767px) {
 			.first, .second, .third{
 				width: 100%;
+				margin-bottom: 20px;
 			}
 		}
 		/* For tablets and medium sized devices */
