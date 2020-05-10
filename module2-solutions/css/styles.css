@@ -24,7 +24,11 @@
 			padding: 7px 10px 7px 10px;
 			font-family: Verdana, serif;
 			font-size: x-large;
+<<<<<<< HEAD
 		    border-radius: 2.5px;
+=======
+			border-radius: 2.5px;
+>>>>>>> 49a88d46e91e1893046f22333fba183c74b5e265
 		}
 		.section1 p {
 			clear: right;
@@ -42,7 +46,11 @@
 			padding: 7px 10px 7px 10px;
             font-family: Verdana, serif;
             font-size: x-large;	
+<<<<<<< HEAD
             border-radius: 2.5px;	
+=======
+			border-radius: 2.5px;
+>>>>>>> 49a88d46e91e1893046f22333fba183c74b5e265
         }
 		.section2 p {
 			clear: right;
